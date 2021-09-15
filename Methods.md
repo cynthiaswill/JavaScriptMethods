@@ -69,7 +69,7 @@ const method = arr => {
 
 ```arr.concat(arrTwo)``` returns [1, 2, 3, 4, 5, 3, 4]<br>
 ```arr.every(item => item < 3))``` returns  true <br>
-```arrFour.flat()``` returns ['a', 'b', 'c', 'd']
+```arrFour.flat()``` returns ['a', 'b', 'c', 'd'] <br>
 ```split.join("")``` returns ‘Testing phrase’<br>
 ```arr.some(item => item > 4)``` returns true<br>
 ```arr.slice(2, 4)``` returns [3, 4]<br>

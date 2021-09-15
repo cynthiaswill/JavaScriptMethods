@@ -2,7 +2,7 @@
 This reference sheet has been created to provide a quick and easy lookup for various built-in JavaScript methods. This list will be primarily written using the arrow syntax (because it's awesome).
 
 ## Higher Order Functions [HOFs]
-HOFs are functions that accept and/or retrun another function. It's called *higher-order* because instead of operating on strings, numbers, booleans etc it goes higher and operates on functions themselves. But don't think of them as something beyond understanding, *just treat them like premade functions for you to use like any other.*
+HOFs are functions that accept and/or return another function. It's called *higher-order* because instead of operating on strings, numbers, booleans etc it goes higher and operates on functions themselves. But don't think of them as something beyond understanding, *just treat them like pre-made functions for you to use like any other.*
 
 ```
 let arr = [10, 20, 15, 5];

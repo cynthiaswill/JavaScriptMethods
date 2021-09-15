@@ -38,5 +38,15 @@ const method = arr => {
 const method = arr => {
   return arr.filter((item) => item < 12);
 }
-.filter() is used to filter an array based on a condition. Result: [10, 5]
 ```
+.filter() is used to filter an array based on a condition. Result: [10, 5]
+
+
+## Number Methods
+
+```let decimal = 2.555555;```
+
+```decimal.toFixed(3)```      returns 2.556; <br>
+```decimal.toPrecision(5)```  returns 2.5556; <br>
+```decimal.toString()```      returns '2.555555' <br>
+

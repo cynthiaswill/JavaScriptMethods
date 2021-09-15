@@ -68,7 +68,7 @@ const method = arr => {
 ```let split = str.split("")```<br>
 
 ```arr.concat(arrTwo)``` returns [1, 2, 3, 4, 5, 3, 4]<br>
-```arr.every(item => item < 3))``` returns  true <br>
+```arr.every(item => item < 3))``` returns  false <br>
 ```arrFour.flat()``` returns ['a', 'b', 'c', 'd'] <br>
 ```split.join("")``` returns ‘Testing phrase’<br>
 ```arr.some(item => item > 4)``` returns true<br>

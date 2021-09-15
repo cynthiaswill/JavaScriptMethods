@@ -61,3 +61,27 @@ const method = arr => {
 ```str.split("")``` returns ['T','e','s','t','i','n','g','p','h','r','a','s','e']<br>
 ```str.toLowerCase()``` returns all lowercase string<br>
 ```str.toUpperCase()``` returns all uppercase string<br>
+
+## Array Methods
+```let arr = [1, 2, 3, 4, 5]
+let arrTwo = [3, 4]
+let arrThree = ['b', 'c', 'a']
+let split = str.split("")```
+
+```arr.concat(arrTwo)``` returns [1, 2, 3, 4, 5, 3, 4]<br>
+```arr.every(item => item < 3))``` returns  true<br>
+```split.join("")``` returns ‘Testing phrase’<br>
+```arr.some(item => item > 4)``` returns true<br>
+```arr.slice(2, 4)``` returns [3, 4]<br>
+```arr.splice(1, 3)``` returns [1, 5] (removes 2, 3, 4 from the array)<br>
+```arr.splice(1, 3, 4, 2, 3, 6, 7)``` returns [1, 4, 2, 3, 6, 7, 5] (adds to the array)<br>
+```arrThree.sort()``` returns sorted character array<br>
+```arrThree.sort(function(a, b){return a - b})``` returns sorted numeric array<br>
+```arr.pop()``` removes last element from an array<br>
+```arr.push()``` adds last element to an array<br>
+```arr.shift()``` removes first element of an array<br>
+```arr.unshift()``` adds first element to an array<br>
+```let copy = [...arrTwo]``` creates a copy of an array<br>
+```let concat = [...arrTwo, ...arrThree]``` concatenates arrays<br>
+```let spread = [1, 2, ...arrTwo]``` returns [1, 2, 3, 4]<br>
+

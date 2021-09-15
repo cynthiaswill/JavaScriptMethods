@@ -50,3 +50,14 @@ const method = arr => {
 ```decimal.toPrecision(5)```  returns 2.5556; <br>
 ```decimal.toString()```      returns '2.555555' <br>
 
+## String Methods
+
+```let str = 'Testing phrase'```
+```str.charAt(0)``` returns 'T'<br>
+```str.indexOf('T')``` returns 0<br>
+```str.slice(0, 7)``` returns 'Testing' (goes up to but does not include 7, zero index)<br>
+```str.slice(-6)``` returns 'phrase' (counts down from the end of the string)<br>
+```str.split(" ")``` returns ['Testing', 'phrase']<br>
+```str.split("")``` returns ['T','e','s','t','i','n','g','p','h','r','a','s','e']<br>
+```str.toLowerCase()``` returns all lowercase string<br>
+```str.toUpperCase()``` returns all uppercase string<br>

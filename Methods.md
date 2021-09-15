@@ -64,10 +64,12 @@ const method = arr => {
 ```let arr = [1, 2, 3, 4, 5]```<br>
 ```let arrTwo = [3, 4]```<br>
 ```let arrThree = ['b', 'c', 'a']```<br>
+```let arrFour = [['a', 'b'], ['c', 'd']]```<br>
 ```let split = str.split("")```<br>
 
 ```arr.concat(arrTwo)``` returns [1, 2, 3, 4, 5, 3, 4]<br>
 ```arr.every(item => item < 3))``` returns  true <br>
+```arrFour.flat()``` returns ['a', 'b', 'c', 'd']
 ```split.join("")``` returns ‘Testing phrase’<br>
 ```arr.some(item => item > 4)``` returns true<br>
 ```arr.slice(2, 4)``` returns [3, 4]<br>
